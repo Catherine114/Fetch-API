@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.header, .footer{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.header__title, .footer__text{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color:darkslategray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.main__button{
+    background-color: transparent;
+    padding: 10px;
+}
